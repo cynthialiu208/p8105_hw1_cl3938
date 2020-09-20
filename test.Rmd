@@ -1,0 +1,34 @@
+---
+title: "p8105_hw1_cl3938"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Problem 1
+
+Creating a data frame of:
+  - a random sample of size 10 from a standard Normal distribution
+  - a logical vector indicating whether elements of the sample are greater than 0
+  - a character vector of length 10
+  - a factor vector of length 10, with 3 different factor “levels”
+  
+```{r df_init}
+p1_df = tibble(
+  samp_rand_norm = rnorm(10),
+  bin_if_positive = 
+  
+)
+
+```
+
+## Problem 2
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
